@@ -42,6 +42,9 @@ ExecStart=/usr/local/bin/hass
 [Install]
 WantedBy=multi-user.target
 ```
+#### reload systemctl
+>sudo systemctl --system daemon-reload
+
 #### enable autostart
 >sudo systemctl enable home-assistant
 
